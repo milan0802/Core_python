@@ -1,0 +1,27 @@
+class Bank:
+    def OpenAccount(self,acno,cname,balance):
+        print("Hello",cname,"Your Account Number",acno,"Is Open with ",balance,"Rs.")
+    def deposit(self,amount):
+        self.balance+=amount
+    def withdraw(self,amount):
+    if amount<=self.balance:
+        self.balance-=amount
+    else:
+        print("Insufficient balance")
+    def checkbalance(self):
+        print("current balance",self.checkbalance)
+ while True:
+     print("*"*30)
+     print("1.Deposit")
+     print("2.Withdraw")
+     print("3.check balance")
+     print("4.Exit")
+     print("*" * 30)
+
+     choice=int(input("Enter your choice:"))
+     if choice==1:
+         amount=float(input("Enter Deposit amount:"))
+         b1.deposit(amount)
+
+b1=Bank()
+b1.OpenAccount("001","Milan",20000)
