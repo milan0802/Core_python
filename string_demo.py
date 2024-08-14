@@ -1,4 +1,4 @@
-s="python programming"
+s="python programing"
 
 print(s)
 print(s.capitalize())
@@ -6,7 +6,7 @@ print(s.casefold())
 print(s.lower())
 print(s.upper())
 print(s.swapcase())
-print(s.center(80,"*"))
+print(s.center(40,"*"))
 print(s.count("n"))
 print(s.endswith("ng"))
 print(s.startswith("Pr"))
@@ -18,5 +18,4 @@ print("123".isnumeric())
 print("".isspace())
 print("python programming".title())
 print("hello".replace("l","w"))
-
 

@@ -17,6 +17,7 @@ for i in s:
         up=up+1
     elif i.islower():
         lc=lc+1
+
 print("total alphabats :",al)
 print("total numeric :",nm)
 print("total space :",sp)

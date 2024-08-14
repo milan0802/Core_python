@@ -1,15 +1,17 @@
-from_collection import deque
+from _collections import deque
 
 a=deque([])
-a.appennd(10)
-a=deque([])
-a.appennd(20)
-a=deque([])
-a.appennd(30)
-a=deque([])
-a.appennd(40)
-a=deque([])
-a.appennd(50)
+a.append(10)
+print(list(a))
+a.append(20)
+print(list(a))
+a.append(30)
+print(list(a))
+a.append(40)
+print(list(a))
+a.append(50)
+print(list(a))
+
 
 a.popleft()
 print(list(a))
