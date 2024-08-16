@@ -3,7 +3,7 @@
 def printline():
     print("*"*50)
 printline()
-print("user define function in pythin.")
+print("user define function in python.")
 printline()
 
 # function with argument but no return value.
